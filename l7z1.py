@@ -9,7 +9,7 @@ for i in range(r):
     A.append([int(input('{0} {1} el:'.format(i,j)))for j in range(c)])
 for i in range(len(A)):
     for j in range(len(A[i])):
-        if A[i][j]<0 and(i+1)%2==0 and(j+1)%2==0:
-            suma = suma + 1
+        if A[i][j]<0 and (i+1)%2==0 and (j+1)%2==0:
+            suma +=1
 print(A)
 print(suma)
