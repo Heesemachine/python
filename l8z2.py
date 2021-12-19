@@ -1,7 +1,9 @@
-def pidp():
-    a = [1, 2, 3, 4, 5]
-    if len(a) == 4:
-        print('Підпослідовність містить 4-х чисел')
-    elif len(a) !=4:
-        print('Підпослідовність не містить 4-х чисел')
-pidp()
+import random
+a = [x for x in range(random.randint(1,10))]
+print(a)
+def pidp(x):
+    if len(x) == 4:
+        print('Підпослідовність містить послідовність з 4-х чисел')
+    elif len(x) !=4:
+        print('Підпослідовність не містить послідовність з 4-х чисел')
+pidp(a)
