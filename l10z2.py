@@ -31,8 +31,8 @@ class audiofile():
         return self.chas_d * self.glybina_cod * self.truvalist
 
 data_st = date(2021, 5, 1)
-AudioFile = audiofile(input('Формат Файлу: '), input('Дата створення: '), input('Тривалість запису: '),
-float(input('Частота Дискритизації: ')), input('Глубина кодування: '))
+AudioFile = audiofile(input('Формат Файлу: '), input('Дата створення: '), int(input('Тривалість запису: ')),
+int((input('Частота Дискритизації: ')), int(input('Глубина кодування: ')))
 print(" Формат файлу: {0}\n Дата створення: {1}\n Тривалість запису: {2}\n Частота Дискритизації: {3:.2f}\n Глубина Кодування {4}\n"
       .format(AudioFile.formatfily, AudioFile.data_st, AudioFile.truvalist, AudioFile.chas_d, AudioFile.glybina_cod))
 
