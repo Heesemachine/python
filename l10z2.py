@@ -25,7 +25,7 @@ class audiofile():
         return get_today_date().year - self.data_st.year
 
     def dots_for_save(self):
-        return self.truvalist * self.chas_d
+        return self.truvalist * self.chas_d # в секундах
 
     def vaga_fily(self):
         return self.chas_d * self.glybina_cod * self.truvalist # в Байтах.....
