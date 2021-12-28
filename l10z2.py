@@ -28,7 +28,7 @@ class audiofile():
         return self.truvalist * self.chas_d
 
     def vaga_fily(self):
-        return 
+        return self.chas_d * self.glybina_cod * self.truvalist
 
 data_st = date(2021, 5, 1)
 AudioFile = audiofile(input('Формат Файлу: '), input('Дата створення: '), input('Тривалість запису: '),
